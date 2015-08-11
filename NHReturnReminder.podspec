@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/huynguyencong"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Nguyen Cong Huy' => 'conghuy2012@gmail.com' }
-  s.source       = { :git => "https://github.com/huynguyencong/NHReturnReminder.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/huynguyencong/NHReturnReminder.git", :tag => "0.1"}
   s.platform     = :ios
   s.source_files = 'NHReturnReminder/*.{h,m}'
   s.requires_arc = true
