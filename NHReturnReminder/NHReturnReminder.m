@@ -31,8 +31,6 @@
 }
 
 - (void)addLocalNotificationWithTimeRemind:(NSTimeInterval)timeRemind {
-    [self cancelAllLocalNotification];
-    
     UILocalNotification* localNotification = [[UILocalNotification alloc] init];
     localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:timeRemind];
     localNotification.alertBody = self.messsage;
@@ -41,6 +39,8 @@
 }
 
 - (void)addLocalNotifications {
+    [self cancelAllLocalNotification];
+    
     for (NSNumber *timeRemindNumber in self.timerReminds) {
         [self addLocalNotificationWithTimeRemind:[timeRemindNumber doubleValue]];
     }
