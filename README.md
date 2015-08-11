@@ -5,7 +5,7 @@ NHReturnReminder make easy to create an return reminder alert. If user don't use
 ### Cocoapod
 Add this line to Podfile:  
 
-`pod 'NHReturnReminder', :git => 'https://github.com/huynguyencong/NHReturnReminder.git'`
+`pod 'NHReturnReminder'`
 ### Manual
 Add 2 source files (.h and .m) in folder NHReturnReminder to your project . 
 ## How to use
