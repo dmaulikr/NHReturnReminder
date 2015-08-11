@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1"
   s.summary      = "Alert user return app"
   s.description  = <<-DESC
-                    NHReturnReminder make easy to create an return reminder alert
+                    NHReturnReminder make easy to create an return reminder alert. If user don't use app in a time, it will make a local notification to notify user return app.
                    DESC
   s.homepage     = "https://github.com/huynguyencong"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
