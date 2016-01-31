@@ -12,7 +12,7 @@
 
 - (instancetype)initWithString:(NSString*)message {
     if(self = [super init]) {
-        self.timerReminds = @[@86400.0, @259200.0, @864000.0];
+        self.timerReminds = @[@172800.0, @345600.0, @864000.0];
         self.messsage = message;
     }
     return self;
